@@ -15,6 +15,10 @@
 		CFBE30941E68013C00516E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBE30921E68013C00516E69 /* LaunchScreen.storyboard */; };
 		CFBE309F1E68013C00516E69 /* LeftSideMenuControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE309E1E68013C00516E69 /* LeftSideMenuControllerDemoTests.m */; };
 		CFBE30AA1E68013C00516E69 /* LeftSideMenuControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE30A91E68013C00516E69 /* LeftSideMenuControllerDemoUITests.m */; };
+		CFBE30B91E68021E00516E69 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE30B81E68021E00516E69 /* LeftMenuViewController.m */; };
+		CFBE30BC1E68024B00516E69 /* LeftMenuTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE30BB1E68024B00516E69 /* LeftMenuTransition.m */; };
+		CFBE30BF1E68026A00516E69 /* LeftMenuPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE30BE1E68026A00516E69 /* LeftMenuPresentation.m */; };
+		CFBE30C21E6807D900516E69 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE30C11E6807D900516E69 /* UIView+Snapshot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		CFBE30A51E68013C00516E69 /* LeftSideMenuControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftSideMenuControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBE30A91E68013C00516E69 /* LeftSideMenuControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftSideMenuControllerDemoUITests.m; sourceTree = "<group>"; };
 		CFBE30AB1E68013C00516E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBE30B71E68021E00516E69 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		CFBE30B81E68021E00516E69 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		CFBE30BA1E68024B00516E69 /* LeftMenuTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuTransition.h; sourceTree = "<group>"; };
+		CFBE30BB1E68024B00516E69 /* LeftMenuTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuTransition.m; sourceTree = "<group>"; };
+		CFBE30BD1E68026A00516E69 /* LeftMenuPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuPresentation.h; sourceTree = "<group>"; };
+		CFBE30BE1E68026A00516E69 /* LeftMenuPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuPresentation.m; sourceTree = "<group>"; };
+		CFBE30C01E6807D900516E69 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		CFBE30C11E6807D900516E69 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				CFBE30881E68013C00516E69 /* AppDelegate.m */,
 				CFBE308A1E68013C00516E69 /* ViewController.h */,
 				CFBE308B1E68013C00516E69 /* ViewController.m */,
+				CFBE30B71E68021E00516E69 /* LeftMenuViewController.h */,
+				CFBE30B81E68021E00516E69 /* LeftMenuViewController.m */,
+				CFBE30BA1E68024B00516E69 /* LeftMenuTransition.h */,
+				CFBE30BB1E68024B00516E69 /* LeftMenuTransition.m */,
+				CFBE30BD1E68026A00516E69 /* LeftMenuPresentation.h */,
+				CFBE30BE1E68026A00516E69 /* LeftMenuPresentation.m */,
+				CFBE30C01E6807D900516E69 /* UIView+Snapshot.h */,
+				CFBE30C11E6807D900516E69 /* UIView+Snapshot.m */,
 				CFBE308D1E68013C00516E69 /* Main.storyboard */,
 				CFBE30901E68013C00516E69 /* Assets.xcassets */,
 				CFBE30921E68013C00516E69 /* LaunchScreen.storyboard */,
@@ -276,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBE30BC1E68024B00516E69 /* LeftMenuTransition.m in Sources */,
+				CFBE30C21E6807D900516E69 /* UIView+Snapshot.m in Sources */,
 				CFBE308C1E68013C00516E69 /* ViewController.m in Sources */,
 				CFBE30891E68013C00516E69 /* AppDelegate.m in Sources */,
+				CFBE30B91E68021E00516E69 /* LeftMenuViewController.m in Sources */,
 				CFBE30861E68013C00516E69 /* main.m in Sources */,
+				CFBE30BF1E68026A00516E69 /* LeftMenuPresentation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
