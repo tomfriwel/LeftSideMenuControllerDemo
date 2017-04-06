@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: LeftSideMenuControllerDemo.xcodeproj # path to your xcodeproj folder
-xcode_scheme: LeftSideMenuControllerDemo
+xcode_scheme: LeftSideMenuControllerDemoTests
 xcode_sdk: iphonesimulator8.0 #5
