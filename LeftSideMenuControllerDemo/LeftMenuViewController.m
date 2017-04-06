@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [self.textField becomeFirstResponder];
 }
 
 - (IBAction)dismissAction:(id)sender {

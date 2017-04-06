@@ -227,7 +227,7 @@
 				TargetAttributes = {
 					CFBE30801E68013C00516E69 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = T5EW9858SB;
+						DevelopmentTeam = 8SJXRJ78CW;
 						ProvisioningStyle = Automatic;
 					};
 					CFBE30991E68013C00516E69 = {
@@ -449,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T5EW9858SB;
+				DEVELOPMENT_TEAM = 8SJXRJ78CW;
 				INFOPLIST_FILE = LeftSideMenuControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.LeftSideMenuControllerDemo;
@@ -461,7 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T5EW9858SB;
+				DEVELOPMENT_TEAM = 8SJXRJ78CW;
 				INFOPLIST_FILE = LeftSideMenuControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.LeftSideMenuControllerDemo;
@@ -538,6 +538,7 @@
 				CFBE30B01E68013C00516E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFBE30B11E68013C00516E69 /* Build configuration list for PBXNativeTarget "LeftSideMenuControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +547,7 @@
 				CFBE30B31E68013C00516E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFBE30B41E68013C00516E69 /* Build configuration list for PBXNativeTarget "LeftSideMenuControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +556,7 @@
 				CFBE30B61E68013C00516E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
