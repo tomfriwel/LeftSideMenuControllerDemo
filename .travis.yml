@@ -1,6 +1,6 @@
 language: objective-c
 script: 
-  - xcodebuild -project LeftSideMenuControllerDemo.xcodeproj -scheme LeftSideMenuControllerDemoTests -sdk iphonesimulator10.3 build test
+  - xcodebuild -project LeftSideMenuControllerDemo.xcodeproj -scheme LeftSideMenuControllerDemoTests -sdk iphonesimulator10.3 build test -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3'
 #   -  xcodebuild test -project LeftSideMenuControllerDemo.xcodeproj -scheme LeftSideMenuControllerDemoTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
   # -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3'
 osx_image: xcode8.3
